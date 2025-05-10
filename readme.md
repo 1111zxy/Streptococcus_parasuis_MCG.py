@@ -38,6 +38,6 @@ Your_Working_Directory/
 ## Usage  
 ### Basic Command  
 ```bash
-python Streptococcus_parasuis_MCG_Typing.py --genome <input.fasta> --prefix <output_prefix>
+python Streptococcus_parasuis_MCG_Typing.py --genome input.fasta --prefix output_prefix
 ```
 
