@@ -27,7 +27,17 @@ A bioinformatics tool for identifying the Minimum Core Genome (MCG) group of *St
 ```bash
 Your_Working_Directory/
 ├── Streptococcus_parasuis_MCG_Typing.py   # Main script
-├── clusters.txt                    # Predefined MCG clusters
-└── data/                           # Reference genomes and SNP markers
-    ├── BS26.fasta                # Reference genome sequences (FASTA)
-    └── snps.table                   # SNP markers for each MCG group
+├── clusters.txt                           # Predefined MCG clusters
+└── data/                                  # Reference genomes and SNP markers
+    ├── BS26.fasta                         # Reference genome sequences (FASTA)
+    └── snps.table                         # SNP markers for each MCG group
+```
+
+---
+
+## Usage  
+### Basic Command  
+```bash
+python Streptococcus_parasuis_MCG_Typing.py --genome <input.fasta> --prefix <output_prefix>
+```
+
